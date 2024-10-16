@@ -1,0 +1,384 @@
+.body{
+    background-color: #000720;
+}
+.rectangle{
+    margin-top: 0;
+    
+}
+.p1{
+    height: 2000px;
+    width: 100%;
+
+}
+
+@font-face{ font-family: "Moon-walk";
+    src: url("assets/moon-walk.ttf");}
+
+
+.rectangle1{
+    width: 297.13px;
+     height: 47.13px;
+     margin-top: -22.59px;
+     margin-left: 1408.26px;
+ border-radius: 32px;
+ flex: 1 1 100%;
+ }
+
+.rectangle2{
+    width: 64px;
+     height: 64px;
+     margin-top: 68.25px;
+     margin-left: 1141px;
+ border-radius: 32px;
+ flex: 1 1 100%;
+ }
+
+ 
+.navbar-wrapper {
+    align-self: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5rem 7.5rem;
+    height: 50px;
+}
+
+.navbar-container {
+    backdrop-filter: blur(12px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.navigations {
+    display: flex;
+    gap: 2rem;
+}
+
+.navigations a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navigations a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000720;
+    border-radius: 10px;
+}
+
+.register-button button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hamburger menu */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+.dropdown-menu {
+    display: none;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+    max-height: 0;
+}
+
+.dropdown-menu a {
+    display: block;
+    margin: 1rem 0;
+    color: #000;
+    text-align: left;
+    margin-left: 2rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 19px;
+    text-decoration: none;
+    background-color: none;
+    width: fit-content;
+}
+
+.dropdown-menu a:hover {
+    background-color: #000720;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.contents-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+
+
+.page1{
+    width: 100%;
+    height: 530px;
+    display: flex;
+   
+    
+  
+    
+}
+.grp1{
+width: 100%;
+height: 769px;
+margin-top: 54px;
+margin-left: 114.95px;
+
+   
+
+    
+} 
+.grp2{
+    width: 100%;
+    margin-top: 200px;
+    padding-right: 205px;
+    height: 800px;
+
+}
+.container1{
+    width: 100%;
+margin-top: 30  0px;
+margin-right: 10px;
+
+   
+    
+    
+
+}
+#h1{
+    width: 100%;
+    color: #9a8dec;
+  display: block;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 80px;
+  padding-left: 5px;
+}
+#h2{
+   width: 100%;
+    color: #fff;
+  display: block;
+  font-family:Moon-walk;
+font-size: 72px;
+padding-right: 50px;
+ 
+  line-height: 45px;
+}
+#h3{
+    width: 100%;
+font-size: 25px;
+line-height: 45px;
+color: #D5CDCD;
+}
+.container2{
+    width: 100%;
+    height: 57px;
+    
+}
+#h4{
+font-size: 20px;
+color: #D5CDCD;
+}
+#h41{
+    color: #fff;
+    font-size: 20px;
+}
+.h5{
+    color: #D5CDCD;
+    size: 34px;
+}
+.h6{
+    margin-left: 350px;
+}
+#h61{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #fff;
+    margin-right: 0px;
+    padding-left: 50px;
+}
+.explore{
+    width: Hug(139px);
+    height: Hug(28px);
+    border-radius: 10px;
+    font-size: 22px;
+
+    
+}
+.rec{
+    height: 200px;
+}
+.rectangle3{
+width: 497.13px;
+height: 597.13px;
+margin-top: 0;
+flex: 1 1 100%;
+
+border-radius: 32px;
+padding-right: 50px;
+
+ }
+.rectangle4{
+margin-top: 0;
+flex: 1 1 100%;
+
+
+ }
+ .container5{
+    display: flex;
+}                 
+.p5{
+    flex-direction: row;
+    padding-left: 200px;
+    
+    
+}
+.container4{
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 900px;
+    
+}
+#container3{
+margin-top: 155px;
+margin-left: 160px;
+}
+#p1{
+    color: #9A8DEC;
+    font-size: 45px;
+    font-weight: 600;
+    
+ }
+ #p30{
+    color:  rgb(133, 130, 152);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 100px;
+    padding-left: 200px;
+ }
+#p2{
+font-family:Moon-walk;
+color: #FFFFFF;
+font-size: 72px;
+line-height: 70px;
+padding-left: 160px;
+
+   
+ }
+
+#c4{
+    height: 400px;
+    width: 500px;
+    margin-top: 200px;
+    padding-top: 200px;
+    }
+#p31{
+color:  rgb(133, 130, 152);
+font-size: 20px;
+font-weight: 500;
+margin-top: 100px;
+
+ }
+#p32{
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 500;
+     }
+     #p3{
+       
+        margin-top: 00px;
+        margin-left: 140px;
+        
+     }
+     #p4{
+    line-height: 2px;
+    margin-top: 100px;
+     }
+     .p36{
+        width: 48px;
+        height: 48px;
+        
+     }
+     #p41{
+        margin-left: 150px;
+     }
+     #p33
+     {
+        color:  rgb(133, 130, 152);
+        font-size: 22px;
+        font-weight: 500;
+         }
+         #p34{
+            color: #FFFFFF;
+            font-size: 23px;
+            font-weight: 500;
+             }
+             #p38{
+                color: #FFFFFF;
+                font-size: 23px;
+                padding-left: 200px;
+                font-weight: 500;
+                 }
+                 #p39
+                 {
+                    color:  rgb(133, 130, 152);
+                    font-size: 22px;
+                    font-weight: 500;
+                     }
+             #p35
+             {
+                color:  rgb(133, 130, 152);
+                font-size: 22px;
+                font-weight: 500;
+                padding-left: 200px;
+                line-height: 2px;
+                
+                 }
+                 #p47{
+                    color: #FFFFFF;
+                    font-size: 23px;
+                    
+                    font-weight: 500;
+                    padding-left: 10px;
+                     }
+                     #p45{
+                color:  rgb(133, 130, 152);
+                font-size: 22px;
+                font-weight: 500;
+                padding-left: 10px;
+                line-height: 2px;
+                     }
